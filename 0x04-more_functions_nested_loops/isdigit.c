@@ -1,18 +1,17 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * _isdigit - checks for a digit
- * @c: the parameter to print
+ * _isupper - uppercase letters
+ * @c: character to check
  *
- * Return: 1 or 0
+ * Return: 0 or 1
  */
-int _isdigit(int c)
+int _isupper(int c)
+
 {
-	if (c >= 48 && c <= 57)
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
+
 }
